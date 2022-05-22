@@ -1,0 +1,145 @@
+
+
+
+.nav p {
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+
+.container img {
+    width: 539.22px;
+    height: 447.43px;
+}
+
+.container-text h1 {
+    width: 586px;
+    height: 190px;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+    color: #333333;
+}
+
+.container-text p {
+    width: 381px;
+    height: 108px;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+    color: #4F4F4F;
+}
+
+.container-text button {
+    width: 216px;
+    height: 68px;
+    background: #333333;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;    
+    letter-spacing: -0.035em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    transition: all .5s;
+}
+
+.container-text button:hover {    
+    background: #2a2a2a;
+}
+
+.footer {
+    
+    position: absolute;
+    width: 100%;
+    bottom: 24px;
+
+}
+
+.footer p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #BDBDBD;
+
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .content {
+        width: 350px;
+    }
+    .container img {
+        width: 286.83px;
+        height: 238px;
+        margin-bottom: 60px;
+    }
+    
+    .container-text h1 {
+        width: 350px;
+        height: 142px;
+        font-size: 48px;
+        line-height: 71px;
+        margin-bottom: 30px;
+
+    }
+    
+    .container-text p {
+        width: 328px;
+        height: 81px;
+        
+        font-size: 18px;
+        line-height: 27px;
+        margin-bottom: 66px;
+
+    }
+    
+    .container-text button {
+        width: 216px;
+        height: 68px;        
+    }
+    
+    .footer {
+        
+        position: absolute;
+        width: 100%;
+        bottom: 24px;
+    
+    }
+    
+    .footer p {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #BDBDBD;
+    
+    }
+
+    .footer {
+        width: 287px;
+    }
+
+    body {
+        padding-left: 24px;
+        
+    }
+}
